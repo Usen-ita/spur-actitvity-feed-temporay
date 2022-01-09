@@ -15,7 +15,7 @@ export default function Share() {
         // Button begins to shake
         setShake(true);
         
-        // Buttons stops to shake after 2 seconds
+        // Buttons stops to shake after 1 second
         setTimeout(() => setShake(false), 1000);
         
     }
@@ -51,7 +51,7 @@ export default function Share() {
                             <span className="shareOptionText">Video</span>
                         </div>
                     </div>
-                    <button onMouseEnter={animate} className = {shake ? `shake` : "shareButton"} type="submit">Share</button>
+                    <button onClick={animate} className = {shake ? `shake` : "shareButton"} type="submit">Share</button>
                 </form>
             </div>
         </div>
@@ -62,5 +62,5 @@ export default function Share() {
 
 
     )
-    /* code from video 2 starts from line 39 to 60*/
+    // code for post elements starts from line 39 to 60
 }
