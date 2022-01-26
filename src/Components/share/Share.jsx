@@ -22,7 +22,7 @@ export default function Share() {
 
     return (
         <ReactCircleModal
-        backgroundColor="#9fdff4"
+        backgroundColor="#4B6973"
         toogleComponent={onClick => (
          <AddCircle color="primary" sx={{fontSize: 60}} onClick={onClick} />
         )}
