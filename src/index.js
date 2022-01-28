@@ -8,9 +8,9 @@ import SdgOptions from "./pages/17sdg page/sdgOption"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <SdgOptions/>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('Options')
 );
 
 // If you want to start measuring performance in your app, pass a function
